@@ -11,10 +11,10 @@ public class NinjaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) //gera uma strtégia por ordem crescente verificar depois
-    long id;
-    String nome;
-    String email;
-    int idade;
+    private long id;
+    private String nome;
+    private String email;
+    private int idade;
 
     public NinjaModel(){
 
